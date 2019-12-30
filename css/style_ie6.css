@@ -1,0 +1,230 @@
+/*
+CSS Responsive template
+*/
+
+
+
+/* -------------------------------------------- */
+/* ------------------Font---------------------- */
+
+/*Add your font at here*/
+
+/* -------------------------------------------- */ 
+/* ------------------Main--------------------- */
+
+.clear{height:0; display:table;  *zoom: 1; content: "";   line-height: 0; clear:both;}
+
+html, body {width:100%; padding:0; margin:0;}
+body {}
+a{}
+
+
+.page-bg1{background: url('../img/jp_bg1.jpg') repeat right top; width:auto; height:1300px;position:relative; margin:auto;}
+
+/* -------------------------------------------- */
+/* ------------------Header-------------------- */
+.container_12{}
+.header{margin:auto; }
+
+.logo{}
+.mobile-logo{display:none;}
+
+ul.social-links{margin-top:52px; }
+ul.social-links li{float:left; margin-right:20px;}
+
+ul.social-links li a.fb{width:10px; height:22px; display:block;  background-image: url(../img/slices.png); background-position: -42px -235px;}
+ul.social-links li a.fb:hover{width:10px; height:22px; display:block;  background-image: url(../img/slices.png); background-position: -42px -300px;}
+
+ul.social-links li a.tw{width:15px; height:20px; display:block;  background-image: url(../img/slices.png); background-position: -164px -235px;}
+ul.social-links li a.tw:hover{width:15px; height:20px; display:block;  background-image: url(../img/slices.png); background-position: -164px -300px;}
+
+.language{margin-top:52px;}
+.language ul { }
+.language ul li {float:left; margin-right:10px;}
+.language ul li a{ }
+.language ul li a:hover{text-decoration:underline; }
+.language ul li p.pressed{padding-right:10px; border-right:1px dotted #eee;}
+
+.mobile-lang{display:none;}
+
+
+/* -------------------------------------------- */
+/* ------------------Content 1------------------- */
+
+.content1-main{margin:auto; /*width:960px;*/}
+
+.mobile-nav{display:none;  margin:auto; margin-bottom:10px;}
+
+.navigation1 ul{}
+
+.navigation1 ul li{margin-top:20px; }
+
+.navigation1 ul li a{text-align:center;}
+
+.navigation1 ul li a.current{}
+
+.navigation1 ul li a:hover{color:#aaa;}
+.short-gigs{}
+
+.gigtext{}
+
+.short-gigs ul{}
+
+.short-gigs ul li{ margin-bottom:22px;  padding-bottom:5px; border-bottom:1px dotted #555;}
+
+.content_slider{}
+
+
+/*START SLIDESHOW*/
+/*** set the width and height to match your images **/
+
+#slideshow {position:relative; 	height:435px; 	width: 738px; 	margin-top: 0px; margin-right: auto;margin-bottom: 0px;	margin-left: auto; }
+ .panel_title { } 
+ #slideshow IMG {position:absolute;	top:0; 	left:0;	z-index:8; 	opacity:0.0;background-image: url(../img/mainpic_1.jpg); }
+ #slideshow IMG.active { z-index:10; opacity:1.0; }
+ #slideshow IMG.last-active {  z-index:9; } 
+
+/*END SLIDESHOW*/
+.mobile-mainpic{display:none;}
+.content1-down{}
+
+.description{ }
+.bg_down{background: url('../img/dbg2.png') repeat left top;  height:150px; /*opacity:0.7;*/ }
+
+.desc-text{}
+
+
+.content1-down h3{text-align:center;}
+
+ul.dlist{margin:auto; clear:both; margin-left:50px;}
+ul.dlist li{float:left;  margin-top:5px; margin-left:5px;}
+ul.dlist li.date{ }
+ul.dlist li.event{ }
+
+
+/* ------------------ END Content 1------------------- */
+/* -------------------------------------------- */
+
+
+
+
+/* -------------------------------------------- */
+/* ------------------Content 2------------------- */
+
+
+/*.page-bg2{background: url('../img/page2_bg.png') repeat; height:1200px;}*/
+.page-bg2{ height:1100px;background:#1F1F23;}
+/*.bigpic-pg2{background: url('../img/page2_bgpic.jpg') no-repeat top center; height:1000px;}*/
+
+
+.page-title2{padding-top:30px; padding-bottom:20px;  width:100px; background:#D64E3F; text-align:center;}
+.bio_content{}
+
+.txt1{}
+.text_split{float:left; width:46%; margin-right:1px;}
+.img_split{float:right; margin:10px; }
+
+/* ------------------END Content 2------------------- */
+/* -------------------------------------------- */
+
+
+
+
+/* -------------------------------------------- */
+/* ------------------Content 3------------------- */
+.page-bg3{ height:1100px; background:#111111;}
+.page-title3{padding-top:30px; padding-bottom:20px;  width:100px; background:#D64E3F; text-align:center;}
+
+.pg3_topbg{height:577px;/*width:960px;*/ }
+h3.music_title{}
+.beatport{}
+.beatport a{ padding:30px; background:#111111;  text-align:center; border:1px solid #444; display:block;}
+.beatport img{margin-left:10px; }
+.beatport a:hover{border:1px solid #D64E3F;}
+/* ------------------END Content 3------------------- */
+/* -------------------------------------------- */
+
+
+
+
+/* -------------------------------------------- */
+/* ------------------Content 4------------------- */
+.page-bg4{height:1200px; background:#1F1F23;}
+.page-title4{padding-top:30px; padding-bottom:20px;  width:250px; background:#D64E3F; text-align:center;}
+
+.disco_title { background:#000; opacity:0.6; border-top:1px solid #D64E3F; border-bottom:1px solid #D64E3F;  color:#ccc;  padding:8px;  } 
+.disco-body{background:#000; opacity:0.5; border:1px dotted #aaa;}
+
+.popular-title{border-bottom:1px dotted #ccc; color:#fff; padding:4px; text-align:center;}
+
+ul.disco-list{ margin-left:20px; background:#000; }
+	ul.disco-list li{float:left; margin-top:20px; }
+	ul.disco-list li.title{width:120px;}
+	ul.disco-list li.label{width:130px; padding-left:15px; border-left:1px solid #ccc;}
+
+
+
+#featured_music {    border-left:1px dotted #ccc;  }
+
+#featured_music ul { clear:both; margin-bottom:0px; }
+
+#featured_music ul li { text-align:center;   }
+
+#featured_music ul li.f_slika {text-align:center; padding:5px;  }
+#featured_music ul li.f_slika img
+{ text-align:center; border:2px solid #ccc;  }
+
+#featured_music ul li.f_slika img:hover {  border:2px solid #000;  } 
+#featured_music ul li.f_naziv { text-align:center; text-transform:uppercase; }
+#featured_music ul li.f_date {  } 
+ .featured_title { border-bottom:1px dotted #ccc; text-transform:uppercase; padding:10px; text-align:center;  }	 	
+	
+/* ------------------END Content 4------------------- */
+/* -------------------------------------------- */
+
+
+
+
+/* -------------------------------------------- */
+/* ------------------Content 5------------------- */
+.page-bg5{height:1200px; background:#D64E3F;}
+.page-title5{padding-top:30px; padding-bottom:20px;  width:170px; background:#D64E3F; text-align:center;}
+
+.contact-social{text-align:center; }
+.contact-social ul{ display:inline-block; text-align:left; overflow:auto; }
+.contact-social ul li{float:left; margin-right:20px;}
+.contact-social ul li a.contact_fb{float:left; text-align:center; width:72px; height:72px; display:block;  background-image: url(../img/slices.png); background-position: -42px -23px;}
+.contact-social ul li a.contact_fb:hover{float:left; text-align:center; width:72px; height:72px; display:block;  background-image: url(../img/slices.png); background-position: -42px -126px;}
+
+.contact-social ul li a.contact_tw{float:left; text-align:center; width:72px; height:72px; display:block;  background-image: url(../img/slices.png); background-position: -164px -23px;}
+.contact-social ul li a.contact_tw:hover{width:72px; height:72px; display:block;  background-image: url(../img/slices.png); background-position: -164px -126px;}
+                
+.contact-social ul li a.contact_sc{float:left; text-align:center; width:72px; height:72px; display:block;  background-image: url(../img/slices.png); background-position: -285px -23px;}
+.contact-social ul li a.contact_sc:hover{width:72px; height:72px; display:block;  background-image: url(../img/slices.png); background-position: -285px -126px;}
+/* ------------------END Content 5------------------- */
+/* -------------------------------------------- */
+
+
+
+
+/* -------------------------------------------- */
+/* ------------------Footer-------------------- */
+
+.footer{background:#222222; height:5%}
+.footer{}
+.foot-text{ text-align:center; padding-top:50px;}
+.foot-text a{ }
+.foot-text a:hover{color:#fff; }
+
+
+/* ------------------END Footer------------------- */
+/* -------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------- */
+/* ------------------MOBILE styles---------------------- */
+
+
